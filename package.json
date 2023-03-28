@@ -1,0 +1,32 @@
+{
+	"name": "monokai-custom-theme",
+	"displayName": "Monokai Custom Theme",
+	"description": "Monokai Custom Theme",
+	"publisher": "kenethriera",
+	"version": "1.0.0",
+	"icon": "images/logo.png",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"Vscode",
+		"Theme",
+		"Monokai"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kenethrrizzo/monokai-custom-theme"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Monokai Custom Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/monokai_custom_theme-color_theme.json"
+			}
+		]
+	}
+}
